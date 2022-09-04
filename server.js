@@ -32,6 +32,9 @@ app.use(express.urlencoded({ extended: false }));
 // AUTHORIZATION MIDDLEWARE
 
 // HOMEPAGE ROUTE
+app.get('/', (req, res) => {
+    res.render('index.ejs');
+});
 
 // TELL THE APP TO LISTEN
 
