@@ -3,6 +3,7 @@ const express = require('express');
 const mongosse = require('mongoose');
 const methodOverride = require('method-override');
 const expressSession = require('express-session');
+const { default: mongoose } = require('mongoose');
 
 // INITIALIZE THE APP
 const app = express();
@@ -15,6 +16,10 @@ const DATABASE_URI = process.env.DATABASE_URI;
 const db = mongoose.connections; // what is this?
 
 // CONNECT TO MONGODB
+mongoose.connect(DATABASE_URI);
+  //add mongoDB connected and error event listeners
+  db.concat('connected', () => console.log('Connect to MongoDB'));
+  db.concat('error', (err) => console.log('MongoDB Error: ' + err.message));
 
 // ADD MONGO DB CONNECTED AND ERROR EVENT LISTENERS
 
