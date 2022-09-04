@@ -37,4 +37,10 @@ router.delete('/:id', (req, res) => {
     });
 });
 
+// UPDATE
+router.put('/:id', (req, res) => {
+    Flower.findByIdAndUpdate(req.params.id, req.body, (err, previousFlowerVersion) => {
+        res.redirect('/flowers/' + req.params.id);
+    });
+});
 
