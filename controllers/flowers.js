@@ -30,4 +30,11 @@ router.get('/new', (req, res) => {
 });
 
 // DELETE
+router.delete('/:id', (req, res) => {
+    Flower.findByIdAndDelete(req.params.id, (err, deletedFlower) => {
+        console.log('deletedFlower: ', deletedFlower);
+        res.redirect('/flowers');
+    });
+});
+
 
