@@ -4,6 +4,7 @@ const mongosse = require('mongoose');
 const methodOverride = require('method-override');
 const expressSession = require('express-session');
 const { default: mongoose } = require('mongoose');
+const { Console } = require('console');
 
 // INITIALIZE THE APP
 const app = express();
@@ -37,5 +38,7 @@ app.get('/', (req, res) => {
 });
 
 // TELL THE APP TO LISTEN
-
+app.listen(PORT, () => {
+    console.log(`Express is listening on port ${PORT}`)
+});
 
