@@ -51,3 +51,11 @@ router.post('/', (req, res) => {
     });
 });
 
+// EDIT
+router.get('/:id/edit', (req, res) => {
+    Flower.findById(req.params.id, (err, foundFlower) => {
+        res.render('flowers/edit.ejs', {
+            flower: foundFlower
+        });
+    });
+});
