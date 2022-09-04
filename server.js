@@ -8,6 +8,11 @@ const expressSession = require('express-session');
 const app = express();
 
 // CONFIGURE SETTINGS
+require('dotenv').config();
+
+const PORT = process.env.PORT;
+const DATABASE_URI = process.env.DATABASE_URI;
+const db = mongoose.connections; // what is this?
 
 // CONNECT TO MONGODB
 
