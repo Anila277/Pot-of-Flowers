@@ -21,11 +21,11 @@ mongoose.connect(DATABASE_URI);
   db.concat('connected', () => console.log('Connect to MongoDB'));
   db.concat('error', (err) => console.log('MongoDB Error: ' + err.message));
 
-// ADD MONGO DB CONNECTED AND ERROR EVENT LISTENERS
-
 // MOUNT MIDDLEWARE
 
 // BODY PARSER MIDDLEWARE
+app.use(express.urlencoded({ extended: false }));
+
 
 // SESSION MIDDLEWARE
 
