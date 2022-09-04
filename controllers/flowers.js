@@ -59,3 +59,11 @@ router.get('/:id/edit', (req, res) => {
         });
     });
 });
+
+// SHOW
+router.get('/:id', (req, res) => {
+    Flower.findById(req.params.id, (err, foundFlower) => {
+        res.render('flowers/show.ejs', { flower: foundFlower})
+    });
+});
+
