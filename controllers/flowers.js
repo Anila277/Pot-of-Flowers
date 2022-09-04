@@ -44,3 +44,10 @@ router.put('/:id', (req, res) => {
     });
 });
 
+// CREATE
+router.post('/', (req, res) => {
+    Flower.create(req.body, (err, createdFlower) => {
+        res.redirect('/flowers');
+    });
+});
+
