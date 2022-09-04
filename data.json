@@ -1,44 +1,50 @@
 [
     {
         "name": "Orange Asiatic Lilies",
-        "description": "",
-        "care": "",
-        "price": ,
-        "qty": 
+        "description": "is an eye-catching bloom that can't be missed",
+        "care": "will need bulbs planted with good drainage. Asiatics need 1 or 2 inches of water per week",
+        "price": 11.19,
+        "qty": 1,
+        "image": ""
     },
     {
         "name": "Red Carnations",
-        "description": "",
-        "care": "",
-        "price": ,
-        "qty": 
+        "description": "A single flower, delicate multi-petaled, double blossom at the end of a long stem.",
+        "care": "Protecting carnations from frost encourages growth the next year. Either install a hoop greenhouse or dig up the plant and bring it inside for the cold winter.",
+        "price": 3,
+        "qty": 1 ,
+        "image": ""
     },
     {
         "name": "Red Roses",
         "description": "A rose in full bloom is truly but a pretty sight, something worth wasting time upon",
         "care": "rose bushes should receive six to eight hours of sunlight daily.",
         "price": 5,
-        "qty": 2
+        "qty": 2,
+        "image": ""
     },
     {
         "name": "Hydrangeas",
         "description": "The large flowerheads look like pom poms growing on bushes that can get as tall as trees.",
         "care": "Plan to water your hydrangeas regularly to keep them consistently moist, especially in hot and dry weather and fertilize them once in the spring.",
         "price": 6,
-        "qty": 1
+        "qty": 1,
+        "image": ""
     },
     {
         "name": "Sunflowers",
         "description": "They are bright and cheery, and as warm and inviting as the sweet summer sun.",
         "care": "A potted sunflower needs enough sunlight, as well as regular watering.",
         "price": 6,
-        "qty": 1
+        "qty": 1,
+        "image": ""
     },
     {
         "name": "Lavender",
         "description": "The leaves can be silvery grey to bright green and the blooms can be deep purple to blue-purple, pink, and even white. And it's smell is an experience that everyone should have!",
         "care": "Lavenders demand full sun, and all lavenders should be pruned once a year to keep them low and full. ",
         "price": 10,
-        "qty": 200
+        "qty": 200,
+        "image": ""
     }
 ]
