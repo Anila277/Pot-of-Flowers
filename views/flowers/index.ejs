@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowers List</title>
+</head>
+<body>
+
+    <%- include('../partials/nav.ejs') %>
+
+        <h1> SHOP </h1> 
+        <ul class="Flowers-list">
+            <% flowers.forEach(b => { %>
+            <li>
+                <a href="/flowers/<%= b._id %>">
+                    <%= b.name %> 
+                    
+                </a> 
+                <br>
+                <a href="/flowers/<%= b._id%>">
+                    <img src="<%=b.image%>" alt="">
+                </a>
+                <br>
+                    Price:$ <%= b.price %>
+            </li> 
+        <% }); %>
+        </ul>
+
+        <a href="/flowers/new">Add New Flower</a>
+        <a href="/flowers/edit">Edit Flower</a>
+
+        <a href="/flowers/show">Show Flower</a>
+        
+</body>
+</html>

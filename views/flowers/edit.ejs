@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Flower</title>
+</head>
+<body>
+    <%- include('../partials/nav.ejs') %>
+    
+    <h2>Edit The Flower</h2>
+    <form action="/flowers/<%= flower.id%>?_method=PUT" method="POST">
+        <label>Name:
+            <input type="text" name="name" value="<%= flower.name %>">
+        </label>
+        <br>
+        <label>Description:
+            <input type="text" name="description" value="<%= flower.description %>">
+        </label>
+        <br>
+        <label>Image:
+            <input type="img" name="image" value="<%= flower.image%>">
+        </label>
+        <br>
+        <label>Care:
+            <input type="text" name="care" value="<%= flower.care%>">
+        </label>
+        <br>
+        <label>Price:
+            <input type="text" name="price" value="<%= flower.price%>">
+        </label>
+        <br>
+        <label>Quantity:
+            <input type="text" name="qty" value="<%= flower.qty%>">
+        </label>
+        <br>
+        <input type="submit" value="Update this Product">
+    </form>
+</body>
+</html>

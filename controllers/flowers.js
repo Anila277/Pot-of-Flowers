@@ -13,7 +13,7 @@ router.get('/seed', (req, res) => {
     });
 });
 
-// REMEMBER -INDUCES-
+// MOUNT ROUTES -INDUCES-
 
 // INDEX
 router.get('/', (req, res) => {

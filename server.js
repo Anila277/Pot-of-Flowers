@@ -1,10 +1,9 @@
 // DEPENDENCIES
 const express = require('express');
-const mongosse = require('mongoose');
+const mongoose = require('mongoose');
 const methodOverride = require('method-override');
 const expressSession = require('express-session');
-const { default: mongoose } = require('mongoose');
-const { Console } = require('console');
+const flowersRouter = require('./controllers/flowers');
 
 // INITIALIZE THE APP
 const app = express();
@@ -26,16 +25,22 @@ mongoose.connect(DATABASE_URI);
 
 // BODY PARSER MIDDLEWARE
 app.use(express.urlencoded({ extended: false }));
+app.use(methodOverride('_method'));
 
 
 // SESSION MIDDLEWARE
 
+
 // AUTHORIZATION MIDDLEWARE
+
 
 // HOMEPAGE ROUTE
 app.get('/', (req, res) => {
     res.render('index.ejs');
 });
+
+
+app.use('/flowers', flowersRouter)
 
 // TELL THE APP TO LISTEN
 app.listen(PORT, () => {

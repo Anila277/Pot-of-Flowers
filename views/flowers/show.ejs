@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    <a href="/flowers">Back to Products</a>
+    <h1><%= flower.name %></h1>
+    <img src="<%=flower.img%>">
+    <p><%= flower.description %></p>
+    <h3>Price: $ <%=flower.price%></h3>
+    <%if (flower.qty === 0) { %>
+         OUT OF STOCK
+        <% } else { %>
+            <%=flower.qty %> Remaining
+            <form action="/flowers/<%=flower._id%>/buy?_method=PUT" method="POST">
+                <input type="submit" value="BUY" />
+            </form>
+        <% } %>
+    <br>
+    <a href="/flowers/<%= flower._id %>/edit">Edit This Product</a>
+
+    <form action="/flowers/<%= flower._id %>?_method=DELETE" method="POST">
+        <input type="submit" value="Delete">
+    </form>
+
+</body>
+</html>
