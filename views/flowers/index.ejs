@@ -19,6 +19,11 @@
                     
                 </a> 
                 <br>
+                <a href="/flowers/<%= b._id %>">
+                    <%= b.qty %> 
+                    
+                </a>
+                <br>
                 <a href="/flowers/<%= b._id%>">
                     <img src="<%=b.image%>" alt="">
                 </a>
@@ -29,9 +34,8 @@
         </ul>
 
         <a href="/flowers/new">Add New Flower</a>
-        <a href="/flowers/edit">Edit Flower</a>
 
-        <a href="/flowers/show">Show Flower</a>
+
         
 </body>
 </html>

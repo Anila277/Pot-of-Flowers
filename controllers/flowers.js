@@ -5,7 +5,8 @@ const Flower = require('../models/flower');
 
 // SEED ROUTE
 router.get('/seed', (req, res) => {
-    const data = require('../data.json');
+const data = require('../data.json');
+
     Flower.deleteMany({}, (err, result) => {
         Flower.insertMany(data, (err, result) => {
             res.redirect('/flowers');

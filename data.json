@@ -46,5 +46,13 @@
         "price": 10,
         "qty": 200,
         "image": ""
+    },
+    {
+        "name": "Yellow Flowers",
+        "description": "The leaves can be silvery grey to bright green and the blooms can be deep purple to blue-purple, pink, and even white. And it's smell is an experience that everyone should have!",
+        "care": "Lavenders demand full sun, and all lavenders should be pruned once a year to keep them low and full. ",
+        "price": 10,
+        "qty": 200,
+        "image": "https://imgur.com/dalOqwk.png"
     }
 ]
