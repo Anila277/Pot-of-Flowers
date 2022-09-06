@@ -37,7 +37,7 @@
         "care": "A potted sunflower needs enough sunlight, as well as regular watering.",
         "price": 6,
         "qty": 1,
-        "image": ""
+        "image": "./Pictures/lavender.jpg"
     },
     {
         "name": "Lavender",
@@ -45,7 +45,7 @@
         "care": "Lavenders demand full sun, and all lavenders should be pruned once a year to keep them low and full. ",
         "price": 10,
         "qty": 200,
-        "image": ""
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Single_lavender_flower02.jpg/1200px-Single_lavender_flower02.jpg"
     },
     {
         "name": "Yellow Flowers",
