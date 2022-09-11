@@ -7,8 +7,10 @@
     <title>Edit Flower</title>
 </head>
 <body>
+    <div class="container">
     <%- include('../partials/nav.ejs') %>
-    
+    <%- include('../partials/header.ejs')%>
+
     <h2>Edit The Flower</h2>
     <form action="/flowers/<%= flower.id%>?_method=PUT" method="POST">
         <label>Name:
@@ -37,5 +39,6 @@
         <br>
         <input type="submit" value="Update this Product">
     </form>
+</div>
 </body>
 </html>

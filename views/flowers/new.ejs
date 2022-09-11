@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowers List</title>
 </head>
 <body>
+    <div class="container">
+    <%- include('../partials/nav.ejs') %>
+    <%- include('../partials/header.ejs')%>
+
     <h1>New Flower </h1>
     <form action="/flowers" method="POST">
         <label>Name:
@@ -34,6 +41,6 @@
     </form>
 
     <a href="/flowers">Cancel</a>
-
+    </div>
 </body>
 </html>

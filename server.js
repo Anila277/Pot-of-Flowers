@@ -22,9 +22,11 @@ mongoose.connect(DATABASE_URI);
   db.concat('error', (err) => console.log('MongoDB Error: ' + err.message));
 
 // MOUNT MIDDLEWARE
+// app.use(express.static('public'))
 
 // BODY PARSER MIDDLEWARE
 app.use(express.urlencoded({ extended: false }));
+app.use('/public', express.static('public'));
 app.use(methodOverride('_method'));
 
 

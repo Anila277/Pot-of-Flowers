@@ -9,33 +9,39 @@
 <body>
 
     <%- include('../partials/nav.ejs') %>
+    <%- include('../partials/header.ejs')%>
 
-        <h1> SHOP </h1> 
+        <div class="shop"><h1> SHOP </h1> </div>
+        <div class="lineup">
+       <div class="container">     
         <ul class="Flowers-list">
             <% flowers.forEach(b => { %>
             <li>
+                <div class="flower-name">
                 <a href="/flowers/<%= b._id %>">
                     <%= b.name %> 
                     
                 </a> 
+            </div>
+                <br>
+                <a href="/flowers/<%= b._id%>">
+                    <img src="<%=b.image%>" alt="">
+                </a>
                 <br>
                 <a href="/flowers/<%= b._id %>">
                     <%= b.qty %> 
                     
                 </a>
                 <br>
-                <a href="/flowers/<%= b._id%>">
-                    <img src="<%=b.image%>" alt="">
-                </a>
-                <br>
                     Price:$ <%= b.price %>
             </li> 
         <% }); %>
         </ul>
-
+    </div>
+</div>
         <a href="/flowers/new">Add New Flower</a>
 
 
-        
+     
 </body>
 </html>

@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    
+}
+.Flowers-list {
+    display: flex;
+
+
+}
+
+body {
+    color: red;
+    background-color: rgb(6, 106, 101);
+    
+}
+
+.lineup {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-break:auto;
+
+
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    font-size: 45px;
+    color: palevioletred;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 25px 35%;
+    font-size: 30px;
+
+}
+
+.shop {
+    color: rgb(157, 26, 244);
+    display: flex;
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    color: antiquewhite;
+}
+
+.flower-name  {
+    border: 2px solid red;
+    display: inline-flex;
+    flex-wrap: wrap;
+
+}
+.flower-name > div {
+    margin: 6px ;
+}

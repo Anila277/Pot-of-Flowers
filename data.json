@@ -5,7 +5,7 @@
         "care": "will need bulbs planted with good drainage. Asiatics need 1 or 2 inches of water per week",
         "price": 11,
         "qty": 1,
-        "image": ""
+        "image": "https://lh3.googleusercontent.com/R5uT-kGM5Ek9VDRNRvQA1rv6KUerzXzdkmWokLew5ewNcOXLkvwRWrHB59DEduQvXwKkcRTtzjfbPIuMs_LmSdoO7z5dSUgzmJt9q34ODil601i7oL1xNKTsdC0LqEMWZNtm7M8brw=w2400"
     },
     {
         "name": "Red Carnations",
@@ -13,7 +13,7 @@
         "care": "Protecting carnations from frost encourages growth the next year. Either install a hoop greenhouse or dig up the plant and bring it inside for the cold winter.",
         "price": 3,
         "qty": 1 ,
-        "image": ""
+        "image": "https://lh3.googleusercontent.com/RrXph0YJawDADWgIBdhI06pLrV40ADBFwXvovdQfgqSVurfvoFueL2pSC189hU81rYWWaksD-YXmp1SXrsV0rBlkZIpIEYTVEJ7QAEUjq_HkNU4_HVYPwONCo1alrmGg-9NDeNy0bQ=w2400"
     },
     {
         "name": "Red Roses",
@@ -21,7 +21,7 @@
         "care": "rose bushes should receive six to eight hours of sunlight daily.",
         "price": 5,
         "qty": 2,
-        "image": ""
+        "image": "https://lh3.googleusercontent.com/bsaRd49E88PkTmlqFDH_H8LWlKX6wknKihLIdQCq-uum96nJqB7KxF4Q8xiKoV6tbkEIKDm9LUhZqhRfuGp1076U61g1gSLTvrkna57SOno7LlEGzKtk9x8mXGmy7X6sd7gcfmnvUw=w2400"
     },
     {
         "name": "Hydrangeas",
@@ -29,7 +29,7 @@
         "care": "Plan to water your hydrangeas regularly to keep them consistently moist, especially in hot and dry weather and fertilize them once in the spring.",
         "price": 6,
         "qty": 1,
-        "image": ""
+        "image": "https://lh3.googleusercontent.com/bHmjc5Nvl-Y6gO1Sm2_3MYZObV5a0uEbvIICRmq_2TEPwRo140UY0_fgS6HbEV9CxGztmzQOB2G84mAWvL10Zn_gIVByg8ggGwZ2Fv4SHMBHc6dYjcF5YAqhXmBLQoM2wYZlK8rS2w=s225-p-k"
     },
     {
         "name": "Sunflowers",
@@ -37,7 +37,7 @@
         "care": "A potted sunflower needs enough sunlight, as well as regular watering.",
         "price": 6,
         "qty": 1,
-        "image": "./Pictures/lavender.jpg"
+        "image": "https://lh3.googleusercontent.com/o38WUDRrB3ZAknCBOz2HeZuYfeBJEzLS5YUgNWHdZyIxO_AprAcW32rEQSBuRQRFWNcfQkpGD6ZpGmJzTlUI2NpEhKJf9ot7rHxp7hjw5AS6y1hrKB3CIXHK9VSCNMUnIFnQAaIQUA=w2400"
     },
     {
         "name": "Lavender",
@@ -45,7 +45,7 @@
         "care": "Lavenders demand full sun, and all lavenders should be pruned once a year to keep them low and full. ",
         "price": 10,
         "qty": 200,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Single_lavender_flower02.jpg/1200px-Single_lavender_flower02.jpg"
+        "image": "https://lh3.googleusercontent.com/LDZS5sgGfJZ8Umkgx4Ly1bIbQqjGUqpOCww_VZ2n0aQaJbyAzLh2RnqXY_31B_Kp-cKKdPharFXN8Ur76PxMu8H2M86khNGpS5sgpIxXqr-Y4DrIOZ4Z21OGZvQQUPxCPpadt-bC5g=w2400"
     },
     {
         "name": "Yellow Flowers",
@@ -53,6 +53,6 @@
         "care": "Lavenders demand full sun, and all lavenders should be pruned once a year to keep them low and full. ",
         "price": 10,
         "qty": 200,
-        "image": "https://imgur.com/dalOqwk.png"
+        "image": "https://lh3.googleusercontent.com/PkhGsGsBbVMEVcqI3eLhnN_J6aiTpeLmP32vyKNUm0gU5o3RReOAcl8etyVfM8S3dsokVZy5AaZCgAt8jEnwk-M9_ti69lAFLQuOv59Ws2txX4rfzqfhcQsugNFhBwDQcSKhSLg3Ww=w2400"
     }
 ]
