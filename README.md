@@ -1,6 +1,6 @@
 # Pot of Flowers
 
-## This app is for a flower that allows the customers to choose the types of flowers and design their own pots. Customers will also have the option to allow the shop to grow the flowers to desired size or take the pot of flowers with planted siddlings. 
+## This app is for a flower shop that allows the customers to choose the types of flowers and design their own pots. Customers will also have the option to allow the shop to grow the flowers to desired size or take the pot of flowers with planted siddlings. 
 
 ### -Technology Used
  ### JavaScript, HTML, CSS, MongoDB, Mongoose, Express, node.js
